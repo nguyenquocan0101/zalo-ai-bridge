@@ -1,0 +1,10 @@
+Zalo AI Bridge
+
+Phần kết nối Zalo được điều chỉnh từ zca-bridge, Copyright 2026 Tom,
+được phát hành theo Apache License, Version 2.0.
+Mã đã được thay đổi cho cầu nối AI và loại bỏ tích hợp Chatwoot.
+
+Giao diện bao gồm một số component và CSS lấy từ NextAdmin:
+https://github.com/NextAdminHQ/nextjs-admin-dashboard
+Tham chiếu commit 7a455034741a7331cb86b10e9a383c8c57c1f3cb.
+Repo nguồn tại commit này không có file LICENSE; điều khoản phân phối cần xác minh.

@@ -1,0 +1,13 @@
+services:
+  bridge:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      HOST: 0.0.0.0
+    ports:
+      - "127.0.0.1:4000:4000"
+    volumes:
+      - bridge_data:/app/data
+volumes:
+  bridge_data:
